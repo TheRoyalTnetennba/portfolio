@@ -1,3 +1,3 @@
-import Board from './board';
+import Nav from './nav';
 
-const board = new Board();
+const board = new Nav();
