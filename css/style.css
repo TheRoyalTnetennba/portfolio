@@ -1,4 +1,22 @@
-body {
+.skill-row {
+  display: flex;
+  width: auto;
+  margin: auto;
+  padding: none;
+}
+
+.skill-row > i {
+  flex: 1;
+  font-size: 80px;
+  color: #f56a6a;
+  width: auto;
+  margin: auto;
+  padding: none;
+}
+
+
+
+/*body {
   padding: 0;
   margin: 0;
   font-family: 'Encode Sans', sans-serif;
@@ -23,7 +41,7 @@ body {
   height: 100%;
   color: #ff7372;
 }
-/*
+
 grey: #e9e8e6
 offwhite: #f6f6f6
 red: #ff7372
@@ -31,7 +49,7 @@ blue-green: #8BFFE3
 dark-grey: #2a2a2a
 green-blue: #bbe6ca
 opposite-green: #72ff77
-*/
+
 
 .navbar > h1 {
   align-self: center;
@@ -53,4 +71,4 @@ opposite-green: #72ff77
   text-transform: uppercase;
   border-bottom: 1px solid;
   border-bottom-color: #bbe6ca;
-}
+}*/
