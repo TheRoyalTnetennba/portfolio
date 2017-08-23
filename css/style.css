@@ -5,7 +5,7 @@
   padding-bottom: 25px;
 }
 
-.skill-row > i {
+.skill-icon {
   flex: 1;
   text-align: center;
   font-size: 80px;
@@ -15,7 +15,7 @@
   padding-bottom: 10px;
 }
 
-.skill-row > i:hover {
+.skill-icon-active {
   flex: 1;
   text-align: center;
   font-size: 80px;
