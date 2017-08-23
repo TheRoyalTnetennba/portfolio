@@ -146,12 +146,12 @@ var Skill = function () {
   }, {
     key: "handleMouseOver",
     value: function handleMouseOver(e) {
-      e.target.classList.add('skill-icon-active');
+      e.currentTarget.classList.add('skill-icon-active');
     }
   }, {
     key: "handleMouseOut",
     value: function handleMouseOut(e) {
-      e.target.classList.remove('skill-icon-active');
+      e.currentTarget.classList.remove('skill-icon-active');
     }
   }]);
 
