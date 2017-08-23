@@ -7,16 +7,18 @@ class Skill {
 
   setup() {
     this.skills = document.getElementsByClassName('skill-icon');
-    this.skills.forEach(skill => skill.addEventListener("mouseover", this.handleMouseOver, false);)
-    this.skills.forEach(skill => skill.addEventListener("mouseout", this.handleMouseOut, false);)
+    for (let i = 0; i < this.skills.length; i++) {
+      this.skills[i].addEventListener("mouseover", e => this.handleMouseOver(e))
+      this.skills[i].addEventListener("mouseout", e => this.handleMouseOut(e))
+    }
   }
 
-  handleMouseOver() {
-    classList.add("otherclass");
+  handleMouseOver(e) {
+    e.target.classList.add('skill-icon-active');
   }
 
-  handleMouseOut() {
-    classList.remove("otherclass");
+  handleMouseOut(e) {
+    e.target.classList.remove('skill-icon-active');
   }
 
 

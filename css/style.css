@@ -1,8 +1,8 @@
 .skill-row {
   display: flex;
   width: 100%;
-  margin: auto;
-  padding-bottom: 25px;
+  margin: 0;
+  padding: 0;
 }
 
 .skill-icon {
@@ -11,19 +11,13 @@
   font-size: 80px;
   color: #f56a6a;
   width: auto;
-  margin: auto;
-  padding-bottom: 10px;
+  margin: 0 auto 0 auto;
+  padding: 25px 0 25px 0;
 }
 
 .skill-icon-active {
-  flex: 1;
-  text-align: center;
-  font-size: 80px;
   background-color: #f56a6a;
   color: #ffffff;
-  width: auto;
-  margin: auto;
-  padding-bottom: 10px;
 }
 
 /*body {
