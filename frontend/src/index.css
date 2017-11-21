@@ -1,27 +1,27 @@
 /* Reset / Override */
 *:focus {
-    outline: none;
+  outline: none;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #7c8086;
+  color:    #7c8086;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #7c8086;
+  color:    #7c8086;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color:    #7c8086;
+  color:    #7c8086;
 }
 
 select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 select::-ms-expand {
-    display: none;
+  display: none;
 }
 
 #main-wrapper {
@@ -29,28 +29,18 @@ select::-ms-expand {
   flex-direction: column;
 }
 
-#main-wrapper > nav {
-  height: 100vh;
-  flex: 1;
-  width: 400px;
-  color: #C8C8C8;
-}
-
 html, body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  color: #3B3F42;
+  color: #2a2a2a;
+  background-color: #FEFEFE;
 }
 
 .App {
   height: 100%;
 }
 
- *:focus {
-   outline: 0;
- }
-
-/*.social-svg-mask:hover {
-    fill: #7A69B3 !important;
-}*/
+*:focus {
+  outline: 0;
+}
