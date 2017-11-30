@@ -15,7 +15,7 @@
 nav {
   height: 100vh;
   flex: 1;
-  width: 300px;
+  max-width: 300px;
   background-color: #2a2a2a;
   color: #C8C8C8;
 }
@@ -25,6 +25,7 @@ nav > a {
   text-transform: uppercase;
   text-decoration: none;
   display: block;
+  color: inherit;
   font-size: 25px;
   padding: 12px 20px 12px;
   cursor: pointer;
@@ -63,4 +64,18 @@ li > img {
   border: 10px solid #eb1478;
   font-size: 30px;
   width: 35px;
+}
+
+.underlined {
+  border-bottom: 5px solid #7A69B3;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.button {
+  cursor: pointer;
+  border: 2px solid #7A69B3;
+  padding: 10px;
+  border-radius: 10px;
+  color: #7A69B3;
 }
