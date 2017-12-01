@@ -46,7 +46,9 @@ class Layout extends Component {
             <a className="social" target="_blank" href="https://angel.co/graham-paye"><i className="fa fa-angellist" aria-hidden="true" /></a>
           </div>
         </nav>
-        {this.props.children}
+        <div className="content">
+          {this.props.children}
+        </div>
       </main>
 
     );

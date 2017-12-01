@@ -16,8 +16,10 @@ nav {
   height: 100vh;
   flex: 1;
   max-width: 300px;
+  min-width: 300px;
   background-color: #2a2a2a;
   color: #C8C8C8;
+  position: fixed;
 }
 
 nav > a {
@@ -49,6 +51,10 @@ li > img {
   left: -2px;
 }
 
+.content {
+  margin-left: 300px;
+}
+
 .social-buttons {
   padding: 25px 20px 0 0;
   position: absolute;
@@ -62,20 +68,66 @@ li > img {
   margin-left: 25px;
   text-align: center;
   border: 10px solid #eb1478;
+  line-height: 40px;
   font-size: 30px;
-  width: 35px;
+  min-width: 39px;
+  max-width: 39px;
+  max-height: 39px;
+  min-height: 39px;
 }
 
-.underlined {
+.big-underlined {
   border-bottom: 5px solid #7A69B3;
   width: 100%;
   margin-bottom: 50px;
 }
 
+.underlined {
+  border-bottom: 3px solid #7A69B3;
+  margin-bottom: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding: 0 10px 20px 0;
+  display: inline;
+}
+
 .button {
+  transition: background-color;
+  font-weight: bold;
+  transition-duration: 1s;
   cursor: pointer;
   border: 2px solid #7A69B3;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+  font-size: 15px;
+  border-radius: 8px;
   color: #7A69B3;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+
+.button:hover, .button:active {
+  background-color: rgba(122, 105, 179, .25);
+}
+
+.small-button {
+  transition: background-color;
+  font-weight: bold;
+  transition-duration: 1s;
+  cursor: pointer;
+  border: 2px solid #7A69B3;
+  padding: 12px 25px 12px 25px;
+  font-size: 12px;
+  border-radius: 8px;
+  color: #7A69B3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.small-button:hover, .small-button:active {
+  background-color: rgba(122, 105, 179, .25);
+}
+
+.section {
+  border-bottom: 3px solid #C8C8C8;
+}
+

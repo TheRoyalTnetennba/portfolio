@@ -18,8 +18,24 @@
   margin-right: 20px;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
 .mb50 {
   margin-bottom: 50px;
+}
+
+.mt0 {
+  margin-top: 0;
 }
 
 .mt15 {
@@ -98,25 +114,32 @@
   flex-wrap: wrap;
 }
 
-.fs46 {
-  font-size: 46px;
+.fs10 {
+  font-size: 10px;
 }
 
-.fs30 {
-  font-size: 30px;
-}
-
-.fs25 {
-  font-size: 25px;
+.fs17 {
+  font-size: 17px;
 }
 
 .fs20 {
   font-size: 20px;
 }
 
-.fs10 {
-  font-size: 10px;
+.fs25 {
+  font-size: 25px;
 }
+
+.fs30 {
+  font-size: 30px;
+}
+
+.fs46 {
+  font-size: 46px;
+}
+
+
+
 
 .db {
   display: block;
@@ -130,8 +153,6 @@
   padding: 10px;
 }
 
-
-
 .p20 {
   padding: 20px;
 }
@@ -140,8 +161,40 @@
   padding: 50px;
 }
 
+.pl10 {
+  padding-left: 10px;
+}
+
+.pl20 {
+  padding-left: 20px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pr20 {
+  padding-right: 20px;
+}
+
 .pr40 {
   padding-right: 40px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+.pt50 {
+  padding-top: 50px;
 }
 
 .fwn {
@@ -224,6 +277,14 @@
   line-height: 50px;
 }
 
+.mh170 {
+  min-height: 170px;
+}
+
+.mh200 {
+  min-height: 200px;
+}
+
 .mh100 {
   min-height: 100%;
 }
@@ -232,7 +293,9 @@
   min-height: 69.7vh;
 }
 
-
+.vac {
+  vertical-align: center;
+}
 
 .tac {
   text-align: center;
