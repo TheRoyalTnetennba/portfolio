@@ -20,7 +20,7 @@ class Footer extends Component {
                 remodeling company. There were a number of inefficiencies in the CRM we were using which 
                 daily added several hours of extra data entry. Unable to find a solution, I taught myself Python, 
                 and built one. I became fascinated by the efficient and near-permanent nature of the solutions that technology provides.</p>
-              <a target="_blank" href="/images/Resume2017.pdf" className="button">View Resume</a>
+              <a target="_blank" href="https://drive.google.com/file/d/1aCK7YL6VYXfx72g4_sKFyElgMUSctLAm/view?usp=sharing" className="button">View Resume</a>
             </div>
             <div className="f1 mb30">
               <img className="wp100" src="/images/me.png" />
