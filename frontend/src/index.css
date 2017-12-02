@@ -37,6 +37,12 @@ html, body {
   background-color: #FEFEFE;
 }
 
+p {
+  color: #777777;
+  line-height: 25px;
+  font-size: 17px;
+}
+
 .App {
   height: 100%;
 }
