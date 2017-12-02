@@ -58,8 +58,7 @@ class Layout extends Component {
     return (
       <main id="main-wrapper" className="black white-b fb">
         <nav className="f1">
-          <Link to="/" className="pill">Menu</Link>
-          <a onClick={() => this.scrollTo('about')}>About</a>
+          <a className="mt75" onClick={() => this.scrollTo('about')}>About</a>
           <a onClick={() => this.toggle('projects')}>Projects{this.arrow('projects', this.state.projects)}</a>
           {this.projects()}
           {false ? <a onClick={() => this.toggle('apps')}>Apps{this.arrow('apps', this.state.apps)}</a> : ''}

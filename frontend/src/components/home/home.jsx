@@ -22,8 +22,8 @@ class Footer extends Component {
                 and built one. I became fascinated by the efficient and near-permanent nature of the solutions that technology provides.</p>
               <a target="_blank" href="https://drive.google.com/file/d/1aCK7YL6VYXfx72g4_sKFyElgMUSctLAm/view?usp=sharing" className="button">View Resume</a>
             </div>
-            <div className="f1 mb30">
-              <img className="wp100" src="/images/me.png" />
+            <div className="f1 mb30 tar">
+              <img className="br5 h500 wa" src="/images/me.png" />
             </div>
           </div>
         </section>

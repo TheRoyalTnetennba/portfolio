@@ -54,6 +54,10 @@
   margin-top: 50px;
 }
 
+.mt75 {
+  margin-top: 75px;
+}
+
 .ml10 {
   margin-left: 10px;
 }
@@ -237,6 +241,10 @@
   border-left: 1px solid #3B3F42;
 }
 
+.wa {
+  width: auto;
+}
+
 .w50 {
   width: 50px;
 }
@@ -281,6 +289,10 @@
   line-height: 50px;
 }
 
+.h500 {
+  height: 500px;
+}
+
 .mh170 {
   min-height: 170px;
 }
@@ -307,4 +319,8 @@
 
 .tal {
   text-align: left;
+}
+
+.tar {
+  text-align: right;
 }
