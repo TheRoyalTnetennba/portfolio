@@ -30,7 +30,7 @@ class Footer extends Component {
         <section id="projects" className="f1 p50">
           <h2 className="underlined">Projects</h2>
           <div className="fb section mt50">
-            <div className="f1 pr20 mb50">
+            <div className="f1 pr20 mb50" id="kitchenfox">
               <div className="mh170">
                 <img className="wp100" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232129/kitchenfoxscreens_jj8uig.png" />
               </div>
@@ -40,7 +40,7 @@ class Footer extends Component {
                 and receive relevant recipe suggestions.</p>
               <a className="small-button">View on GitHub</a>
             </div>
-            <div className="f1 pl20 pr20 mb50">
+            <div className="f1 pl20 pr20 mb50" id="indieexpo">
               <div className="mh170">
                 <img className="wp100" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232131/ieproductpage_gttibz.png" />
               </div>
@@ -50,7 +50,7 @@ class Footer extends Component {
                 view, and contribute to fund-raising campaigns.</p>
               <a className="small-button">View on GitHub</a>
             </div>
-            <div className="f1 pl20 mb50">
+            <div className="f1 pl20 mb50" id="cowboybeatbox">
               <div className="mh170">
                 <img className="wp100" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232128/cowboyBeatbox_rgenki.png" />
               </div>
