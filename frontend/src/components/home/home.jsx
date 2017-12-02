@@ -38,7 +38,7 @@ class Footer extends Component {
               <p className="mb30">A iOS/Android app built using Nodejs, MongoDB, Express, 
                 and React-Native, enables the user to keep track of ingredient quantities 
                 and receive relevant recipe suggestions.</p>
-              <a className="small-button">View on GitHub</a>
+              <a target="_blank" href="https://github.com/gummyBear-Index/KitchenFox" className="small-button">View on GitHub</a>
             </div>
             <div className="f1 pl20 pr20 mb50" id="indieexpo">
               <div className="mh170">
@@ -48,7 +48,7 @@ class Footer extends Component {
               <p className="mb30">A single-page web application inspired by IndieGogo, built 
                 using Ruby on Rails, React, Redux, PostgreSQL, and Go. Allows users to create, 
                 view, and contribute to fund-raising campaigns.</p>
-              <a className="small-button">View on GitHub</a>
+              <a target="_blank" href="https://github.com/TheRoyalTnetennba/indie-expo" className="small-button">View on GitHub</a>
             </div>
             <div className="f1 pl20 mb50" id="cowboybeatbox">
               <div className="mh170">
@@ -58,7 +58,7 @@ class Footer extends Component {
               <p className="mb30">CowboyBeatBox is a browser-based beatboxing app made with 
                 vanilla JavaScript and HTML, allowing users to create music and watch Spike 
                 Spiegel dance to their selected tempo.</p>
-              <a className="small-button">View on GitHub</a>
+              <a target="_blank" href="https://github.com/TheRoyalTnetennba/cowboyBeatBox" className="small-button">View on GitHub</a>
             </div>
           </div>
         </section>
