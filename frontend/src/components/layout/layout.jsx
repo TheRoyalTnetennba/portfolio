@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter, Link } from 'react-router-dom';
-import ReactDOM from 'react-dom';
+import { withRouter } from 'react-router-dom';
 
 
 import Games from './games';
@@ -24,7 +23,6 @@ class Layout extends Component {
   }
 
   toggle(el) {
-    console.log(el)
     this.setState({ [el]: !this.state[el] });
   }
 
