@@ -32,7 +32,7 @@ class Footer extends Component {
           <div className="fb section mt50">
             <div className="f1 pr20 mb50" id="kitchenfox">
               <div className="mh170">
-                <img className="wp100" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232129/kitchenfoxscreens_jj8uig.png" />
+                <img className="wp100 br5" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232129/kitchenfoxscreens_jj8uig.png" />
               </div>
               <h2 className="fs20">KitchenFox</h2>
               <p className="mb30">A iOS/Android app built using Nodejs, MongoDB, Express, 
@@ -42,7 +42,7 @@ class Footer extends Component {
             </div>
             <div className="f1 pl20 pr20 mb50" id="indieexpo">
               <div className="mh170">
-                <img className="wp100" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232131/ieproductpage_gttibz.png" />
+                <img className="wp100 br5" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232131/ieproductpage_gttibz.png" />
               </div>
               <h2 className="fs20">IndieExpo</h2>
               <p className="mb30">A single-page web application inspired by IndieGogo, built 
@@ -52,7 +52,7 @@ class Footer extends Component {
             </div>
             <div className="f1 pl20 mb50" id="cowboybeatbox">
               <div className="mh170">
-                <img className="wp100" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232128/cowboyBeatbox_rgenki.png" />
+                <img className="wp100 br5" src="https://res.cloudinary.com/dy4gcvjff/image/upload/v1504232128/cowboyBeatbox_rgenki.png" />
               </div>
               <h2 className="fs20">Cowboy Beatbox</h2>
               <p className="mb30">CowboyBeatBox is a browser-based beatboxing app made with 
